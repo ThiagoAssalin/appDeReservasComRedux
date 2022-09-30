@@ -4,7 +4,7 @@ import {Router} from 'react-router-dom'
 import Header from "./components/Header";
 import {Provider} from 'react-redux'
 import store from "./store";
-import history from "./services/historys";
+import history from "./services/history";
 
 export default function App(){
   return(

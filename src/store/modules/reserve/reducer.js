@@ -14,6 +14,7 @@ export default function reserve(state = [], action){
                 if(tripIndex >= 0){
                     draft.splice(tripIndex, 1)
                 }})
+                
         case 'UPDATE_RESERVE_SUCCESS' :
             
             return  produce(state, draft => {
